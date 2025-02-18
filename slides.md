@@ -167,6 +167,8 @@ class: text-white
 https://google.github.io/eng-practices/review/reviewer/standard.html
 <br>
 https://google.github.io/eng-practices/review/reviewer/looking-for.html
+<br>
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/getting-started/helping-others-review-your-changes
 
 
 ---
