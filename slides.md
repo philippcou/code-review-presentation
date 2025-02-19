@@ -1,15 +1,14 @@
 ---
-theme: default
+theme: apple-basic
 background: https://cover.sli.dev
 title: Code Reviews
 info: |
   ## Präsentation über Code Reviews
 class: text-center
-layout: cover
+layout: intro
 drawings:
   persist: false
 transition: slide-up
-# enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
 
@@ -18,24 +17,19 @@ mdc: true
 Qualitätssicherung und Zusammenarbeit im Entwicklungsteam
 
 <div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+  <a href="https://github.com/philippcou/code-review-presentation" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
 </div>
 
 ---
 transition: slide-up
-class: text-white
 ---
 <Toc />
 
 
 ---
 transition: slide-up
-class: text-white
 ---
 # Was ist ein Code Review?
 
@@ -54,7 +48,6 @@ Verantwortung)
 
 ---
 transition: slide-up
-class: text-white
 ---
 
 # Code Review Best Practices
@@ -76,7 +69,6 @@ Einsatz von automatisierten tools als vorarbeit
 
 ---
 transition: slide-up
-class: text-white
 ---
 
 # Pull Request Best Practices
@@ -97,8 +89,7 @@ Description vom Pull Request
 
 
 ---
-transition: slide-up
-class: text-white
+transition: slide-left
 ---
 
 # Automatisierte Tools
@@ -110,22 +101,27 @@ class: text-white
 - Einsatz im BRZ: Quality Gates
 
 <!--
-TODO Zeigen von Quality Gate tabelle vom BRZ
--->
-
-<!--
 Vorteile: Erzeugen ein Minimum an Code Qualität, Entlastung der Entwickler, Kleinigkeiten werden of abgefangen, die häufigsten Sicherheitslücken werden erkannt
 Nachteile: Verlängerung des Build Prozesses, Entwickler können sich genervt fühlen 
 -->
 
 ---
+transition: slide-left
+level: 2
+layout: center
+---
+
+<div style="padding: 20px;">
+  <img src="./resources/qg.png" alt="Your Image" />
+</div>
+
+---
 transition: slide-up
-class: text-white
 ---
 
 # Sonarqube
 
-- Statische Code Analyse (Programmiersprachen-spezifische Regeln)
+- Statische Code Analyse <br>(Programmiersprachen-spezifische Regeln)
 - Testabdeckung
 - OWASP Checks
 
@@ -133,16 +129,22 @@ class: text-white
 
 ---
 transition: slide-up
-class: text-white
+level: 1
 ---
 
 # Persönliche Erfahrungen
 
-- <span style="color: #f57f85;">Entwickler nehmen sich nicht die Zeit</span>
-- <span style="color: #f57f85;">Kleinigkeiten werden kommentiert, längere reviews werden vermieden</span>
-- <span style="color: #8dfc8d;">Gerade als Junior Entwickler lernt man seinen Standpunkt zu argumentieren</span>
-- <span style="color: #8dfc8d;">Weitergabe von Coding Patterns</span>
-
+<v-clicks>
+ <span style="color: #f57f85;">- Entwickler nehmen sich/haben nicht die Zeit</span>
+ <br>
+ <span style="color: #f57f85;">- Kleinigkeiten werden kommentiert, längere reviews werden vermieden</span>
+  <br>
+ <span style="color: #8dfc8d;">- Gerade als Junior Entwickler lernt man seinen Standpunkt zu argumentieren</span>
+  <br>
+ <span style="color: #8dfc8d;">- Weitergabe von Coding Patterns</span>
+  <br>
+  <p>Wie nehmt ihr Code Reviews in eurem Projekt wahr?</p>
+</v-clicks>
 
 <!--
 Ausbau von Soft skills, förderung von kommunikation im Team
@@ -151,7 +153,6 @@ Ausbau von Soft skills, förderung von kommunikation im Team
 ---
 transition: slide-up
 layout: center
-class: text-white 
 ---
 
 # Beispiele
@@ -159,10 +160,9 @@ class: text-white
 ---
 transition: slide-up
 layout: center
-class: text-white 
 ---
 
-# Hilfreiche Lektüre
+# Hilfreiche Links
 
 https://google.github.io/eng-practices/review/reviewer/standard.html
 <br>
@@ -174,6 +174,5 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/gettin
 ---
 transition: slide-up
 layout: center
-class: text-white 
 ---
 # Danke für eure Aufmerksamkeit!
