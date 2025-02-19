@@ -155,13 +155,6 @@ transition: slide-up
 layout: center
 ---
 
-# Beispiele
-
----
-transition: slide-up
-layout: center
----
-
 # Hilfreiche Links
 
 https://google.github.io/eng-practices/review/reviewer/standard.html
