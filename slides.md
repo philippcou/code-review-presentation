@@ -129,6 +129,14 @@ transition: slide-up
 
 ---
 transition: slide-up
+layout: center
+level: 1
+---
+
+# Beispiel
+
+---
+transition: slide-up
 level: 1
 ---
 
