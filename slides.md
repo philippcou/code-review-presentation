@@ -40,10 +40,10 @@ transition: slide-up
   - Ist der Code verständlich & gut dokumentiert?
   - Passt der Code zum Team-Standard?
   - Sind Klassen, Methoden, Variablen etc. sinnvoll benannt?
-  - Förderung des Teamzusammenhalts (Geteilte 
+  - Förderung des Teamzusammenhalts (Geteilte Verantwortung)
 
 <!--
-Verantwortung)
+
 -->
 
 ---
